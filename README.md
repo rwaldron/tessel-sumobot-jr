@@ -59,5 +59,7 @@ Here is a wiring diagram:
 
 Here is a close-up:
 
+I used some small zip-ties to mount the Tessel board; they are flexible enough to jump the mounting holes, and have just enough structure to raise the Tessel above the chassis side walls.
+
 ![Close-up of constructed Tessel Sumobot](https://raw.githubusercontent.com/KatieK2/tessel-sumobot-jr/master/hacky-close-up.jpg)
 
