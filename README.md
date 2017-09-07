@@ -15,6 +15,11 @@ npm install
 ```
 
 
+## Edit Configuration
+
+Open the `config.yml` file and edit the `host` and `port` keys as needed. 
+
+
 ## Deployment
 
 With a Tessel 2 connected via USB or LAN (Access Point supported), deploy the `sumobot.js` program to the Tessel 2: 

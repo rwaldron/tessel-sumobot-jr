@@ -1,5 +1,9 @@
 const keypress = require("keypress");
+const yaml = require("js-yaml");
+const fs = require("fs");
 const net = require("net");
+
+const config = yaml.safeLoad(fs.readFileSync("./config.yml", "utf8"));
 const client = new net.Socket();
 
 keypress(process.stdin);
@@ -7,10 +11,7 @@ process.stdin.resume();
 process.stdin.setEncoding("utf8");
 process.stdin.setRawMode(true);
 
-// Change this to "tessel-name.local"
-const host = "127.0.0.1";
-
-client.connect(1337, host, () => {
+client.connect(config.port, config.host, () => {
   process.stdin.on("keypress", (ch, key) => {
     if (!key) {
       return;

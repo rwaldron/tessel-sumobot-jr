@@ -1,0 +1,4 @@
+# Change this to "tessel-name.local" (without quotes)
+host: 127.0.0.1
+# Optionally change this to whatever port you'd like to use
+port: 1337
