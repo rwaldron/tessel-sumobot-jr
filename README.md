@@ -51,4 +51,13 @@ Once the `sumobot.js` program is deployed to the Tessel 2 and the `controller.js
 | ➡️ | Turn Right |
 | ⬅️ | Turn Left |
 
+## Build
+
+Here is a wiring diagram:
+
+![Wiring Diagram for Tessel Sumobot](https://raw.githubusercontent.com/KatieK2/tessel-sumobot-jr/master/wiring-diagram.png)
+
+Here is a close-up:
+
+![Close-up of constructed Tessel Sumobot](https://raw.githubusercontent.com/KatieK2/tessel-sumobot-jr/master/hacky-close-up.jpg)
 
