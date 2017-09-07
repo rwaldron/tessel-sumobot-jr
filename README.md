@@ -14,6 +14,9 @@ cd tessel-sumobot-jr
 npm install 
 ```
 
+
+## Deployment
+
 With a Tessel 2 connected via USB or LAN (Access Point supported), deploy the `sumobot.js` program to the Tessel 2: 
 
 ```
@@ -29,5 +32,18 @@ From a new terminal window, run the local `controller.js` program:
 ```
 node controller.js
 ```
+
+## Usage
+
+Once the `sumobot.js` program is deployed to the Tessel 2 and the `controller.js` program is running locally, use the following keys to control the Sumobot Jr. via the `controller.js` terminal window: 
+
+| Keyboard Key | Description |
+| ------------ | ----------- |
+| `q` | Quit program |
+| `space` | Stop |
+| ⬆️ | Drive forward |
+| ⬇️ | Drive backward |
+| ➡️ | Turn Right |
+| ⬅️ | Turn Left |
 
 
