@@ -1,5 +1,8 @@
 # Tessel 2 Sumobot Jr.
 
+Adapted from https://github.com/makenai/sumobot-jr
+
+
 ## Getting Started
 
 ```
