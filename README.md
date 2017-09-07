@@ -11,20 +11,20 @@ cd tessel-sumobot-jr
 npm install 
 ```
 
-With a Tessel 2 connected via USB or LAN (Access Point supported), deploy the Sumobot Jr. program to the Tessel 2: 
+With a Tessel 2 connected via USB or LAN (Access Point supported), deploy the `sumobot.js` program to the Tessel 2: 
 
 ```
 # For development and testing:
-t2 run deploy-to-tessel.js
+t2 run sumobot.js
 
 # To set active program:
-t2 push deploy-to-tessel.js 
+t2 push sumobot.js 
 ```
 
-From a new terminal window, run the local "controller" program: 
+From a new terminal window, run the local `controller.js` program: 
 
 ```
-node local-controller.js
+node controller.js
 ```
 
 
