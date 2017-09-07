@@ -2,6 +2,9 @@
 
 Adapted from https://github.com/makenai/sumobot-jr
 
+## Requirements
+
+The host computer running the `controller.js` program and the Tessel 2 running the `sumobot.jr` program **must** be able to connect via LAN—either by connecting to the same [Wifi network](https://tessel.gitbooks.io/t2-docs/content/API/CLI.html#using-wifi) (which **must** support **mdns**) or by [configuring the Tessel 2 to provide an access point of its own](https://tessel.gitbooks.io/t2-docs/content/API/CLI.html#create-an-access-point). 
 
 ## Getting Started
 
